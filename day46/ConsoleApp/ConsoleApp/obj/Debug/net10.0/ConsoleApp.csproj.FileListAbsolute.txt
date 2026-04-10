@@ -1,0 +1,5 @@
+/home/javohir/Desktop/AdvancedC-/day46/ConsoleApp/ConsoleApp/obj/Debug/net10.0/ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/javohir/Desktop/AdvancedC-/day46/ConsoleApp/ConsoleApp/obj/Debug/net10.0/ConsoleApp.AssemblyInfoInputs.cache
+/home/javohir/Desktop/AdvancedC-/day46/ConsoleApp/ConsoleApp/obj/Debug/net10.0/ConsoleApp.AssemblyInfo.cs
+/home/javohir/Desktop/AdvancedC-/day46/ConsoleApp/ConsoleApp/obj/Debug/net10.0/ConsoleApp.csproj.CoreCompileInputs.cache
+/home/javohir/Desktop/AdvancedC-/day46/ConsoleApp/ConsoleApp/obj/Debug/net10.0/ConsoleApp.sourcelink.json
