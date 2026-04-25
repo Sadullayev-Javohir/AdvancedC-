@@ -194,7 +194,7 @@
 //
 // class Lamp
 // {
-//     private Socket _socket = new Socket();
+//     private readonly Socket _socket = new Socket();
 //
 //     public void TurnOn()
 //     {
@@ -214,25 +214,236 @@
 
 // YAXSHI
 
-interface IPowerSource
+// interface IPowerSource
+// {
+//     void ProvideElectricity();
+// }
+//
+// class Socket : IPowerSource
+// {
+//     public void ProvideElectricity() => Console.WriteLine("220 V ta'minlayapti");
+// }
+//
+// class Lamp
+// {
+//     private readonly Socket _socket;
+//     public Lamp(Socket socket) => _socket = socket;
+//
+//     public void TurnOn()
+//     {
+//         _socket.ProvideElectricity();
+//         Console.WriteLine("Yondi");
+//     }
+// }
+//
+// class Program
+// {
+//     static void Main()
+//     {
+//         Lamp lamp = new Lamp(new Socket());
+//         lamp.TurnOn();
+//     }
+// }
+
+
+// 5. High Cohesion
+
+// YOMON
+// class Cashier
+// {
+//     public void TakePayment(decimal amount) => Console.WriteLine($"To'lov olindi: {amount}");
+//     public void CookFood() => Console.WriteLine("Ovqat tayyorlandi");
+//     public void CleanShop() => Console.WriteLine("Dokon tozalandi");
+// }
+
+
+// YAXSHI
+// class Cashier
+// {
+//     public void TakePayment(decimal amount)
+//     {
+//         Console.WriteLine($"To'lov olindi: {amount}");
+//     }
+//
+//     public void GiveReceipt() => Console.WriteLine("Check chiqarildi");
+// }
+
+// 6. Polymorphism
+
+// class Elevator
+// {
+//     public void Go(string type)
+//     {
+//         if (type == "Office") Console.WriteLine("3-qavatga chiqdi");
+//         else if (type == "Hotel") Console.WriteLine("10-qavatga tushdi");
+//         else if (type == "parking") Console.WriteLine("Parkinga tushdi");
+//     }
+// }
+//
+// class Program
+// {
+//     static void Main()
+//     {
+//         Elevator elevator = new Elevator();
+//         elevator.Go("Office");
+//     }
+// }
+
+// YAXSHI
+
+// interface IElevator
+// {
+//     void Go();
+// }
+//
+// class OfficeElevator : IElevator
+// {
+//     public void Go() => Console.WriteLine("3-qavatga tushdi");
+// }
+//
+// class HotelElevator : IElevator
+// {
+//     public void Go() => Console.WriteLine("10-qavatga tushdi");
+// }
+//
+// class ParkingElevator : IElevator
+// {
+//     public void Go() => Console.WriteLine("Parkinga tushdi");
+// }
+//
+// class Program
+// {
+//     static void Main()
+//     {
+//         IElevator elevator1 = new OfficeElevator();
+//         elevator1.Go();
+//     }
+// }
+
+// class Order
+// {
+//     public void Save() => Console.WriteLine("Bazaga saqlandi");
+//     public void SendEmail() => Console.WriteLine("Email yuborildi");
+//     public void Deliver() => Console.WriteLine("Yetkazib berildi");
+// }
+
+// class Order
+// {
+//     public int Id { get; set; }
+//     public Order(int id) => Id = id;
+// }
+//
+// class LogisticService
+// {
+//     public void Deliver(Order order) => Console.WriteLine($"Order #{order.Id} yetkazib berildi");
+// }
+//
+// class EmailService
+// {
+//     public void Send(Order order) => Console.WriteLine($"Order #{order.Id} uchun email yuborildi");
+// }
+//
+// class OrderRepository
+// {
+//     public void Save(Order order) => Console.WriteLine($"Order #{order.Id} bazaga saqlandi");
+// }
+//
+
+// 8. Indirection
+// YOMON
+// class Friend
+// {
+//     public void Talk() => Console.WriteLine("Do'st bilan gaplashildi");
+// }
+//
+// class Person
+// {
+//     public Friend _friend = new Friend();
+//     public void Call() => _friend.Talk();
+// }
+//
+// class Program
+// {
+//     static void Main()
+//     {
+//         Person p = new Person();
+//         p.Call();
+//     }
+// }
+
+// class Friend
+// {
+//     public void Talk() => Console.WriteLine("Do'st bilan gaplashildi");
+// }
+//
+// class Operator
+// {
+//     private readonly Friend _friend;
+//     public Operator(Friend friend) => _friend = friend;
+//     public void ConnectCall()
+//     {
+//         Console.WriteLine("Operator qong'iroqni uladi");
+//         _friend.Talk();
+//     }
+// }
+//
+// class Person
+// {
+//     private readonly Operator _operator;
+//     public Person(Operator op) => _operator = op;
+//
+//     public void Call()
+//     {
+//         Console.WriteLine("Qo'ng'iroq qilinmoqda...");
+//         _operator.ConnectCall();
+//     }
+// }
+//
+// class Program
+// {
+//     static void Main()
+//     {
+//         Person person = new Person(new Operator(new Friend()));
+//         person.Call();
+//     }
+// }
+//
+// class Payme
+// {
+//     public void Pay(int amount) => Console.WriteLine("Payme orqali to'landi: " + amount);
+// }
+//
+// class OrderService
+// {
+//     private Payme _payme = new Payme();
+//     public void Checkout() => _payme.Pay(100);
+// }
+//
+
+
+interface IPayment
 {
-    void ProvidePower();
+    void Pay(int amount);
 }
 
-class Socket : IPowerSource
+class Payme : IPayment
 {
-    public void ProvidePower() => Console.WriteLine("220V elektr uzatildi");
+    public void Pay(int amount) => Console.WriteLine("Payme orqali: " + amount);
 }
 
-class Lamp
+class Click : IPayment
 {
-    private readonly IPowerSource _power;
-    public Lamp(IPowerSource power) => _power = power;
+    public void Pay(int amount) => Console.WriteLine("Click orqali: " + amount);
+}
 
-    public void TurnOn()
+class OrderService
+{
+    private readonly IPayment _payment;
+    public OrderService(IPayment payment) => _payment = payment;
+
+    public void Checkout()
     {
-        _power.ProvidePower();
-        Console.WriteLine("Chiroq yoqildi");
+        _payment.Pay(100);
     }
 }
 
@@ -240,8 +451,8 @@ class Program
 {
     static void Main()
     {
-        Socket socket = new Socket();
-        Lamp lamp = new Lamp(socket);
-        lamp.TurnOn();
+        // IPayment click = new Click();
+        // OrderService orderService = new OrderService(click);
+        // orderService.Checkout();
     }
 }
