@@ -1,0 +1,15 @@
+/home/javohir/Desktop/AdvancedC-/day60/14/bin/Debug/net10.0/14
+/home/javohir/Desktop/AdvancedC-/day60/14/bin/Debug/net10.0/14.deps.json
+/home/javohir/Desktop/AdvancedC-/day60/14/bin/Debug/net10.0/14.runtimeconfig.json
+/home/javohir/Desktop/AdvancedC-/day60/14/bin/Debug/net10.0/14.dll
+/home/javohir/Desktop/AdvancedC-/day60/14/bin/Debug/net10.0/14.pdb
+/home/javohir/Desktop/AdvancedC-/day60/14/obj/Debug/net10.0/14.GeneratedMSBuildEditorConfig.editorconfig
+/home/javohir/Desktop/AdvancedC-/day60/14/obj/Debug/net10.0/14.AssemblyInfoInputs.cache
+/home/javohir/Desktop/AdvancedC-/day60/14/obj/Debug/net10.0/14.AssemblyInfo.cs
+/home/javohir/Desktop/AdvancedC-/day60/14/obj/Debug/net10.0/14.csproj.CoreCompileInputs.cache
+/home/javohir/Desktop/AdvancedC-/day60/14/obj/Debug/net10.0/14.sourcelink.json
+/home/javohir/Desktop/AdvancedC-/day60/14/obj/Debug/net10.0/14.dll
+/home/javohir/Desktop/AdvancedC-/day60/14/obj/Debug/net10.0/refint/14.dll
+/home/javohir/Desktop/AdvancedC-/day60/14/obj/Debug/net10.0/14.pdb
+/home/javohir/Desktop/AdvancedC-/day60/14/obj/Debug/net10.0/14.genruntimeconfig.cache
+/home/javohir/Desktop/AdvancedC-/day60/14/obj/Debug/net10.0/ref/14.dll
