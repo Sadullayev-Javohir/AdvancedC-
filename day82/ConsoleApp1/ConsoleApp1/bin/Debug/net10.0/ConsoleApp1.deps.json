@@ -1,0 +1,76 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "ConsoleApp1/1.0.0": {
+        "dependencies": {
+          "DependencyInjection": "1.2.0",
+          "Microsoft.Extensions.DependencyInjection": "10.0.8",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.8"
+        },
+        "runtime": {
+          "ConsoleApp1.dll": {}
+        }
+      },
+      "DependencyInjection/1.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/DependencyInjectionLib.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/10.0.8": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.8"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.826.23019"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.8": {
+        "runtime": {
+          "lib/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.826.23019"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleApp1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DependencyInjection/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-y/hXYHE86R72B0Fslnu/Sip9/7Fthfhosfg5XNlLnQak6+FUHCkJ/QXMFBMCs7Wn9UtADYREuavUr9YhhOIEBA==",
+      "path": "dependencyinjection/1.2.0",
+      "hashPath": "dependencyinjection.1.2.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/10.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-daf62xHIrq8pnE709hgaZZN9tSam9TGGepWe1+bE6V3GEuVwJiMs6ib+38lfMCyAJAHiX0vapxBhsuMSV7U+cg==",
+      "path": "microsoft.extensions.dependencyinjection/10.0.8",
+      "hashPath": "microsoft.extensions.dependencyinjection.10.0.8.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-21nbDV60SRPWGIivsyl6lqBeEJNG1sginhhfWgRrr3Ais7aQ12To25OAHQxgoiJkjqy1aQ6RxpZBGYuTi7Ge6A==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/10.0.8",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.10.0.8.nupkg.sha512"
+    }
+  }
+}
