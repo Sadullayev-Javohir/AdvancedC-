@@ -1,0 +1,68 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": []
+  },
+  "packageFolders": {
+    "/home/javohir/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/javohir/Desktop/AdvancedC-/day89/DatabaseProject1/DatabaseProject1/DatabaseProject1.sqlproj",
+      "projectName": "DatabaseProject1",
+      "projectPath": "/home/javohir/Desktop/AdvancedC-/day89/DatabaseProject1/DatabaseProject1/DatabaseProject1.sqlproj",
+      "packagesPath": "/home/javohir/.nuget/packages/",
+      "outputPath": "/home/javohir/Desktop/AdvancedC-/day89/DatabaseProject1/DatabaseProject1/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/javohir/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "/usr/lib/dotnet/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "noWarn": [
+          "NU5128"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.100"
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.108/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

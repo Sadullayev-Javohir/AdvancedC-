@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{42EA0DBD-9CF1-443E-919E-BE9C484E4577}") = "DatabaseProject1", "DatabaseProject1\DatabaseProject1.sqlproj", "{A54405FC-C032-4095-846E-746A1761831A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A54405FC-C032-4095-846E-746A1761831A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A54405FC-C032-4095-846E-746A1761831A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A54405FC-C032-4095-846E-746A1761831A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A54405FC-C032-4095-846E-746A1761831A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
