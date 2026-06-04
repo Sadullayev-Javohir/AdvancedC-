@@ -1,0 +1,15 @@
+/home/javohir/Desktop/AdvancedC-/day97/ConsoleApplication/ConsoleApplication/bin/Debug/net10.0/ConsoleApplication
+/home/javohir/Desktop/AdvancedC-/day97/ConsoleApplication/ConsoleApplication/bin/Debug/net10.0/ConsoleApplication.deps.json
+/home/javohir/Desktop/AdvancedC-/day97/ConsoleApplication/ConsoleApplication/bin/Debug/net10.0/ConsoleApplication.runtimeconfig.json
+/home/javohir/Desktop/AdvancedC-/day97/ConsoleApplication/ConsoleApplication/bin/Debug/net10.0/ConsoleApplication.dll
+/home/javohir/Desktop/AdvancedC-/day97/ConsoleApplication/ConsoleApplication/bin/Debug/net10.0/ConsoleApplication.pdb
+/home/javohir/Desktop/AdvancedC-/day97/ConsoleApplication/ConsoleApplication/obj/Debug/net10.0/ConsoleApplication.GeneratedMSBuildEditorConfig.editorconfig
+/home/javohir/Desktop/AdvancedC-/day97/ConsoleApplication/ConsoleApplication/obj/Debug/net10.0/ConsoleApplication.AssemblyInfoInputs.cache
+/home/javohir/Desktop/AdvancedC-/day97/ConsoleApplication/ConsoleApplication/obj/Debug/net10.0/ConsoleApplication.AssemblyInfo.cs
+/home/javohir/Desktop/AdvancedC-/day97/ConsoleApplication/ConsoleApplication/obj/Debug/net10.0/ConsoleApplication.csproj.CoreCompileInputs.cache
+/home/javohir/Desktop/AdvancedC-/day97/ConsoleApplication/ConsoleApplication/obj/Debug/net10.0/ConsoleApplication.sourcelink.json
+/home/javohir/Desktop/AdvancedC-/day97/ConsoleApplication/ConsoleApplication/obj/Debug/net10.0/ConsoleApplication.dll
+/home/javohir/Desktop/AdvancedC-/day97/ConsoleApplication/ConsoleApplication/obj/Debug/net10.0/refint/ConsoleApplication.dll
+/home/javohir/Desktop/AdvancedC-/day97/ConsoleApplication/ConsoleApplication/obj/Debug/net10.0/ConsoleApplication.pdb
+/home/javohir/Desktop/AdvancedC-/day97/ConsoleApplication/ConsoleApplication/obj/Debug/net10.0/ConsoleApplication.genruntimeconfig.cache
+/home/javohir/Desktop/AdvancedC-/day97/ConsoleApplication/ConsoleApplication/obj/Debug/net10.0/ref/ConsoleApplication.dll
